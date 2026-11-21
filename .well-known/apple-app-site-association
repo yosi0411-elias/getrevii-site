@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "T9DCC8X46A.app.revii"
+        ],
+        "components": [
+          {
+            "/": "/g/*"
+          },
+          {
+            "/": "/app/*"
+          }
+        ]
+      }
+    ]
+  }
+}

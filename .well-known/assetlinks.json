@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.revii",
+      "sha256_cert_fingerprints": [
+        "5A:22:02:F4:93:4E:D7:9B:25:B1:01:8F:9C:B0:8A:46:8F:42:55:F7:CC:3B:ED:61:ED:49:5D:F6:DA:F8:40:12"
+      ]
+    }
+  }
+]
