@@ -25,5 +25,5 @@ header{display:flex;align-items:center;gap:12px;margin-bottom:16px}header img{wi
 <p>כדי לראות את פרטי המשחק ולהצטרף, פותחים אותו באפליקציית רביעי. האפליקציה כרגע בפיילוט סגור, ולכן נדרשת גישה פעילה.</p>
 <p><a id="open" class="btn" href="revii://">פתיחת המשחק ב״רביעי״</a></p>
 <p class="meta">אין לך עדיין גישה? אפשר לפנות אלינו לגבי הפיילוט או עם כל שאלה:<br><a href="mailto:contact@getrevii.app">contact@getrevii.app</a></p></div>
-<script>(function(){var m=location.pathname.match(/^\/g\/([A-Za-z0-9]{1,64})\/?$/),q=location.search.match(/[?&]c=([A-Za-z0-9]{1,64})(&|$)/);var c=q?q[1]:(m&&m[1]!=='open'?m[1]:null);if(c)document.getElementById('open').href='revii://g/'+c;})();</script>
+<script>(function(){if(!/^\/g\//.test(location.pathname)){location.replace('/');return;}var m=location.pathname.match(/^\/g\/([A-Za-z0-9]{1,64})\/?$/),q=location.search.match(/[?&]c=([A-Za-z0-9]{1,64})(&|$)/);var c=q?q[1]:(m&&m[1]!=='open'?m[1]:null);if(c)document.getElementById('open').href='revii://g/'+c;})();</script>
 </main></body></html>
